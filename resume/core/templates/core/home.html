@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% load static %}
+ {% block content%}
+<div class="mt-5 ">
+   <div class="text-center">
+        <img src="{% static 'core/image/Rohan.jpg'%}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="150px">
+   </div>
+    <div class="mt-5 text-white mx-5 text-justify" >
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height:2rem;">
+            <p style="text-indent:100px;"> "Hi, I'm <b class="text-warning">Rohan Sawant</b> a Python developer with 1 year of experience in developing web applications using Django. I have a strong understanding of HTML and CSS and have implemented responsive designs for various web pages.I am also well-versed in data analysis, natural language processing (NLP), machine learning, and big data technologies.</p>
+
+<p>I have a passion for working with data and have experience analyzing data using Python libraries such as Pandas, Numpy, and Scikit-learn. I have also worked on various NLP projects such as sentiment analysis, text classification, and chatbots.</p>
+
+<p> As a Python developer, I believe in writing clean, maintainable, and scalable code that is easy to understand and work with. I enjoy working on challenging projects and am constantly looking for opportunities to learn and grow as a developer.</p>
+
+In my free time, I enjoy reading tech blogs and experimenting with new technologies. I am also an avid sports fan and enjoy playing Cricket in my spare time."
+
+
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mr-5"> Hire Me  </a>
+
+    <a href="" class="btn btn-outline-info my-3">  Contact  </a>
+    </div>
+</div>
+{% endblock content%}
